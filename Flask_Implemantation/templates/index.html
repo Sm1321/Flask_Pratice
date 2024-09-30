@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML with Flask</title>
+    <!-- Use url_for to link to the CSS file -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Flask Course</h1>
+    <p>Let's see how Flask will work with the HTML.</p>
+    <div class="div">
+        <h2>My name is Flask.</h2>
+        <p>let's see how it works</p>
+    </div>
+</body>
+</html>
